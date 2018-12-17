@@ -1,0 +1,9 @@
+{
+  "name": "self_study_typescript",
+  "version": "0.0.1",
+  "description": "make blockchain by typescript.",
+  "main": "index.js",
+  "repository": "https://github.com/azxca1731/self_study_typescript",
+  "author": "junghun lee",
+  "license": "MIT"
+}
