@@ -7,7 +7,10 @@
   "author": "junghun lee",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "prestart": "tsc"
+    "start": "tsc-watch --onSuccess \"node dist/index.js\" "
+  },
+  "dependencies": {
+    "tsc-watch": "^1.0.31",
+    "typescript": "^3.2.2"
   }
 }
